@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Products\PivotBracket.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Agro.Context\Agro.Context.csproj" />
+    <ProjectReference Include="..\Agro.Model\Agro.Model.csproj" />
+    <ProjectReference Include="..\Agro.Utitlity\Agro.Utitlity.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Products\PivotBracket.jpg" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Agro.DataAccess\Agro.DataAccess.csproj" />
+    <ProjectReference Include="..\Agro.Model\Agro.Model.csproj" />
+    <ProjectReference Include="..\Agro.Utitlity\Agro.Utitlity.csproj" />
+  </ItemGroup>
+
+</Project>
