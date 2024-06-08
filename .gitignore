@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Agro.Context/obj
+/Agro.DataAccess/obj
+/Agro.Model/obj
+/Agro.Utitlity/obj
+/AgroServicesAPI/obj
